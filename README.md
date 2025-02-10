@@ -1,6 +1,5 @@
 # Pixabay Project
 
-## Project Structure
 - **Client/**: client-side JavaScript/HTML/CSS.
 - **Server/**: Express server/API file
 
