@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixabay Nissim Mission</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <form id="searchForm">
+    <input type="search" id="searchBar" name="q" placeholder="Search..." />
+    <button type="submit">Search</button>
+  </form>
+
+  <div id="tagsSearch">
+    <button data-tag="Nature">nature</button>
+    <button data-tag="Background">background</button>
+    <button data-tag="Wallpaper">wallpaper</button>
+    
+  </div>
+
+  <div id="images"></div>
+
+  <!-- Modal from Geeks for Geeks (new) -->
+  <div class="modal" id="myModal"> 
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">   
+          <img id="modalImage" src="" alt="Modal Image" /> <!--script.js (openModal Script) -->
+          <div id="modalText"></div> <!--script.js (openModal Script) -->
+        </div>
+        <div class="modal-footer">
+          <button id="closeModal">close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
