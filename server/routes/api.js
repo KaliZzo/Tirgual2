@@ -1,5 +1,8 @@
 const express = require("express");
 const router = express.Router();
+const dotenv = require("dotenv");
+
+dotenv.config();
 
 const API_Key = process.env.PixaBay_API_NEW;
 const cache = {};
